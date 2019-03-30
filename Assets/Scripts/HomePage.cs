@@ -91,9 +91,9 @@ public class HomePageState : State<HomePage>
             body: new PageView(
                 children: new List<Widget>
                 {
-                    new BookDetailPage("首页"),
-                    new BookDetailPage("书籍"),
-                    new BookDetailPage("观点")
+                    new EmptyPage("首页"),
+                    new BookListPage(),
+                    new EmptyPage("观点")
                 },
                 onPageChanged: OnPageChanged,
                 controller: _pageController

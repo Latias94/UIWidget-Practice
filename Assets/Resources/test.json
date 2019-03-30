@@ -1,0 +1,671 @@
+{
+  "bookItems": [
+    {
+      "authors": [
+        {
+          "id": null,
+          "name": "胡阳",
+          "key": null
+        }
+      ],
+      "translators": [],
+      "authorNameString": "胡阳",
+      "translatorNameString": "",
+      "id": 2663,
+      "coverKey": "19014dfb7e0e331be8db",
+      "name": "Django企业开发实战：高效Python Web框架指南",
+      "isbn": "978-7-115-50689-4",
+      "abstract": "本书以从零开发一个博客系统为例，介绍Django在日常工作中的应用。\r\n本书共分为四部分。第一部分介绍编码之前的准备工作，包括需求分析、Web开发基础以及选型时Demo的练习。第二部分开始正式实现需求，介绍了环境配置、编码规范以及合理的项目结构划分。通过对Django各部分（Model、Form、admin、View）的介绍和使用，完成了一个基础的博客系统。第三部分在前面的基础上介绍Django第三方插件的使用，通过引入这些插件进一步增强我们的系统。最后一部分也是正式工作中必不可少的部分，包含调试代码、优化系统、压力测试以及自动化等内容。\r\n本书适合Python Web开发人员阅读。\r\n",
+      "bookEditionPrices": [
+        {
+          "id": 2663,
+          "name": "99.00",
+          "key": "Paper"
+        }
+      ]
+    },
+    {
+      "authors": [
+        {
+          "id": null,
+          "name": "［英］罗宾·克罗斯",
+          "key": null
+        }
+      ],
+      "translators": [
+        {
+          "id": null,
+          "name": "王喜",
+          "key": null
+        }
+      ],
+      "authorNameString": "［英］罗宾·克罗斯",
+      "translatorNameString": "王喜",
+      "id": 1971,
+      "coverKey": "1902f3fe575ee85e8fd4",
+      "name": "你不可不知的50个战争知识（修订版）",
+      "isbn": "978-7-115-50355-8",
+      "abstract": "本书通过50篇短小精干的短文，介绍了人类最持久的一种活动——战争。从古代战车、维京长船和城堡，到坦克、雷达、轰炸机，再到原子弹、无人机和网络战，作者形象地描绘了过去2500多年人类所发明的最重要的武器、防御工事及战术。",
+      "bookEditionPrices": [
+        {
+          "id": 1971,
+          "name": "39.00",
+          "key": "Paper"
+        }
+      ]
+    },
+    {
+      "authors": [],
+      "translators": [],
+      "authorNameString": "刘红阁、王淑娟、温融冰",
+      "translatorNameString": "",
+      "id": 2444,
+      "coverKey": "180954194a1b56a37d22",
+      "name": "人人都是数据分析师：Tableau应用实战（第2版）",
+      "isbn": "978-7-115-50119-6",
+      "abstract": "本书基于Tabelau新版本10.5编写，全面介绍了Tableau的核心功能，包括数据连接与编辑、图形展示与编辑功能，如何与R等工具进行集成，如何在服务器上进行发布管理等内容，而且广泛覆盖数据获取与管理、基础与高级图形分析、地图分析、交互分析与数据挖掘、图表集成整合与分享发布等主要内容，方便大家快速掌握敏捷分析方法与技术。",
+      "bookEditionPrices": [
+        {
+          "id": 2444,
+          "name": "79.00",
+          "key": "Paper"
+        }
+      ]
+    },
+    {
+      "authors": [
+        {
+          "id": null,
+          "name": "Ben Dupré",
+          "key": null
+        }
+      ],
+      "translators": [
+        {
+          "id": null,
+          "name": "杨雯",
+          "key": null
+        }
+      ],
+      "authorNameString": "［英］本·杜普雷（Ben Dupré）",
+      "translatorNameString": "杨雯",
+      "id": 1480,
+      "coverKey": "1811d48d2b1e83b0b735",
+      "name": "你不可不知的50个伦理学知识",
+      "isbn": "978-7-115-49834-2",
+      "abstract": "对于许多事实的是非对错，我们每个人都有许多看法，并且大家往往各说各话，固持己见。那么如何能够更好地描述我们自己的道德直觉和道德判断？当大家的意见出现分歧时，我们又如何能够进行有效的辩论？这时了解一些伦理学知识或许会有所帮助。\r\n本书精选了伦理学的一些重要话题，兼顾了宗教思想家和世俗思想家的洞见，并梳理了西方伦理学的几大传统，包括功利主义、康德伦理学和德性伦理学。我们不仅能与柏拉图、亚里士多德、康德、边沁、密尔等前贤，也能与伯纳德·威廉斯、彼得·辛格、戴维·罗斯、约翰·罗尔斯、托马斯·内格尔等今哲展开对话。\r\n除了一些重要的理论概念，本书还花了大量篇幅讨论伦理学的现实应用，涉及当下的众多重要议题，包括死刑、酷刑、恐怖主义、毒品、动物权利、安乐死、克隆、战争、贫困、环境等。这些讨论是重要的，因为它们挑战的不仅是我们的思考方式，还有我们的行为方式。",
+      "bookEditionPrices": [
+        {
+          "id": 1480,
+          "name": "39.00",
+          "key": "Paper"
+        }
+      ]
+    },
+    {
+      "authors": [
+        {
+          "id": null,
+          "name": "[法] 吕克•德•布拉班迪尔 ",
+          "key": null
+        }
+      ],
+      "translators": [
+        {
+          "id": null,
+          "name": "任轶",
+          "key": null
+        }
+      ],
+      "authorNameString": "[法] 吕克•德•布拉班迪尔",
+      "translatorNameString": "任轶",
+      "id": 2590,
+      "coverKey": "1812888dfbd427869b1f",
+      "name": "极简算法史：从数学到机器的故事",
+      "isbn": "978-7-115-50080-9",
+      "abstract": "数学、逻辑学、计算机科学三大领域实属一家，彼此成就，彼此影响。从古希腊哲学到“无所不能”的计算机，数字、计算、推理这些貌似简单的概念在三千年里融汇、碰撞。如何将逻辑赋予数学意义？如何从简单运算走向复杂智慧？这背后充满了人类智慧的闪光：从柏拉图、莱布尼茨、罗素、香农到图灵都试图从数学公式中证明推理的合理性，缔造完美的思维体系。他们是凭天赋制胜，还是鲁莽地大胆一搏？本书描绘了一场人类探索数学、算法与逻辑思维，并最终走向人工智能的梦想之旅，展现了哲学家、逻辑学家与数学家独特的思维方式，探讨了算法与人工智能对科学和社会的巨大影响。\r\n",
+      "bookEditionPrices": [
+        {
+          "id": 2590,
+          "name": "39.00",
+          "key": "Paper"
+        },
+        {
+          "id": 2590,
+          "name": "19.99",
+          "key": "Ebook"
+        }
+      ]
+    },
+    {
+      "authors": [
+        {
+          "id": null,
+          "name": "纪尧姆·周（Guillaume Chau）",
+          "key": null
+        }
+      ],
+      "translators": [
+        {
+          "id": null,
+          "name": "周智勋",
+          "key": null
+        },
+        {
+          "id": null,
+          "name": "张伟杰",
+          "key": null
+        },
+        {
+          "id": null,
+          "name": "孔亚杰",
+          "key": null
+        },
+        {
+          "id": null,
+          "name": "李骏",
+          "key": null
+        }
+      ],
+      "authorNameString": "[法]纪尧姆·周（Guillaume Chau）",
+      "translatorNameString": "周智勋，张伟杰，孔亚杰，李骏",
+      "id": 2575,
+      "coverKey": "1811e5f350b02906bbd3",
+      "name": "Vue.js项目实战",
+      "isbn": "978-7-115-50199-8",
+      "abstract": "本书基于6个项目来引导读者深入理解Vue.js。书中首先介绍Vue的基础知识，并使用指令和丰富的用户体验创建第一个Web应用；随后通过创建基于浏览器的游戏来介绍动画和交互性；然后通过可用的工具和预处理器讲解如何使用插件创建多页面应用，并为应用创建高效、高性能的组件；接下来创建一个在线商店并对其进行优化；最后将Vue与实时库Meteor集成，创建一个显示实时数据的仪表盘。",
+      "bookEditionPrices": [
+        {
+          "id": 2575,
+          "name": "69.00",
+          "key": "Paper"
+        },
+        {
+          "id": 2575,
+          "name": "34.99",
+          "key": "Ebook"
+        }
+      ]
+    },
+    {
+      "authors": [
+        {
+          "id": null,
+          "name": "单建华",
+          "key": null
+        }
+      ],
+      "translators": [],
+      "authorNameString": "单建华",
+      "translatorNameString": "",
+      "id": 2661,
+      "coverKey": "181193dc5be90cd8b20b",
+      "name": "卷积神经网络的Python实现",
+      "isbn": "978-7-115-49756-7",
+      "abstract": "卷积神经网络是深度学习最重要的模型之一。本书是卷积神经网络领域的入门读物，假定读者不具备任何机器学习知识。书中尽可能少地使用数学知识，从机器学习的概念讲起，以卷积神经网络的最新发展结束。\r\n本书首先简单介绍了机器学习的基本概念，详细讲解了线性模型、神经网络和卷积神经网络模型，然后介绍了基于梯度下降法的优化方法和梯度反向传播算法，接着介绍了训练网络前的准备工作、神经网络实战、卷积神经网络的应用及其发展。针对每个关键知识点，书中给出了基于NumPy 的代码实现，以及完整的神经网络和卷积神经网络代码实现，方便读者训练网络和查阅代码。\r\n本书既可以作为卷积神经网络的教材，也可以供对卷积神经网络感兴趣的工程技术人员和科研人员参考。",
+      "bookEditionPrices": [
+        {
+          "id": 2661,
+          "name": "49.00",
+          "key": "Paper"
+        }
+      ]
+    },
+    {
+      "authors": [],
+      "translators": [],
+      "authorNameString": "[德]克劳迪娅·科特豪斯",
+      "translatorNameString": "王勇",
+      "id": 2403,
+      "coverKey": "1811e7c5c2f35c4730f2",
+      "name": "写给大家看的设计书：案例篇",
+      "isbn": "978-7-115-50029-8",
+      "abstract": "  本书分别针对Logo、明信片和宣传手册的设计进行了详细介绍，并通过案例讲解的方式，将优秀的设计集中呈现出来。\r\n  本书尤其适合商业设计师阅读，是一本实用的设计案例指导书。  ",
+      "bookEditionPrices": [
+        {
+          "id": 2403,
+          "name": "89.00",
+          "key": "Paper"
+        },
+        {
+          "id": 2403,
+          "name": "44.99",
+          "key": "Ebook"
+        }
+      ]
+    },
+    {
+      "authors": [
+        {
+          "id": null,
+          "name": "Tal Ater",
+          "key": null
+        }
+      ],
+      "translators": [
+        {
+          "id": 225228,
+          "name": "张俊达",
+          "key": null
+        }
+      ],
+      "authorNameString": "[以] 塔勒•爱特尔（Tal Ater）",
+      "translatorNameString": "张俊达",
+      "id": 2040,
+      "coverKey": "18119d66a9bfc4f15e1f",
+      "name": "PWA开发实战",
+      "isbn": "978-7-115-50200-1",
+      "abstract": "本书通过实际操作帮助读者透彻地理解现代渐进式 Web 应用开发，指导读者学会利用原生应用的特性构建 Web 应用。主要内容包括：某酒店网站构建全流程，开发渐进式 Web 应用时一些需要重点考虑的因素，离线优先的 Web 应用的原则，渐进式 Web 应用为用户界面带来的一些新挑战和新机会，等等。",
+      "bookEditionPrices": [
+        {
+          "id": 2040,
+          "name": "79.00",
+          "key": "Paper"
+        },
+        {
+          "id": 2040,
+          "name": "39.99",
+          "key": "Ebook"
+        }
+      ]
+    },
+    {
+      "authors": [
+        {
+          "id": null,
+          "name": "Regina Obe",
+          "key": null
+        },
+        {
+          "id": null,
+          "name": "Leo Hsu",
+          "key": null
+        }
+      ],
+      "translators": [
+        {
+          "id": null,
+          "name": "丁奇鹏",
+          "key": null
+        }
+      ],
+      "authorNameString": "[美] 瑞金娜•奥贝（Regina Obe）  利奥•徐(Leo Hsu)",
+      "translatorNameString": "丁奇鹏",
+      "id": 2460,
+      "coverKey": "18112fca883336a2fcd8",
+      "name": "PostgreSQL即学即用（第3版）",
+      "isbn": "978-7-115-49966-0",
+      "abstract": "本书将帮助你理解和使用 PostgreSQL 这一开源数据库系统。主要介绍 PostgreSQL 9.5、PostgreSQL 9.6 以及 PostgreSQL 10 的核心概念和功能特性，但也会涉及之前版本中一些独特的高级特性。你会发现 PostgreSQL 不只是个数据库系统，也是一个出色的应用平台。本书通过示例展示了如何实现在其他数据库中难以或不能完成的任务。",
+      "bookEditionPrices": [
+        {
+          "id": 2460,
+          "name": "79.00",
+          "key": "Paper"
+        },
+        {
+          "id": 2460,
+          "name": "39.99",
+          "key": "Ebook"
+        }
+      ]
+    },
+    {
+      "authors": [
+        {
+          "id": null,
+          "name": "Marcus Hirt",
+          "key": null
+        },
+        {
+          "id": null,
+          "name": "Marcus Lagergren",
+          "key": null
+        }
+      ],
+      "translators": [
+        {
+          "id": null,
+          "name": "曹旭东",
+          "key": null
+        }
+      ],
+      "authorNameString": "[瑞士] 马库斯·希尔特（Marcus Hirt）[瑞典]马库斯·拉杰格伦（Marcus Lagergren）",
+      "translatorNameString": "曹旭东",
+      "id": 2491,
+      "coverKey": "1811f19c89a7de6ee65a",
+      "name": "JRockit权威指南：深入理解JVM",
+      "isbn": "978-7-115-50045-8",
+      "abstract": "本书面向所有以Java编程语言为工作中心的开发人员和系统管理员，分为3大部分。第一部分着重介绍了JVM和自适应运行时的工作原理，并以JRockit为例专门介绍到底什么是好的Java代码。第二部分介绍JRockit Mission Control套件的具体功能，以及如何使用JRockit Mission Control套件来查找应用程序的性能瓶颈。第三部分介绍Java发展方向。",
+      "bookEditionPrices": [
+        {
+          "id": 2491,
+          "name": "99.00",
+          "key": "Paper"
+        },
+        {
+          "id": 2491,
+          "name": "49.99",
+          "key": "Ebook"
+        }
+      ]
+    },
+    {
+      "authors": [
+        {
+          "id": null,
+          "name": "Wladston Ferreira Filho",
+          "key": null
+        }
+      ],
+      "translators": [
+        {
+          "id": 273091,
+          "name": "蒋楠",
+          "key": null
+        }
+      ],
+      "authorNameString": "[巴西]沃德斯顿·费雷拉·菲尔多（Wladston Ferreira Filho）",
+      "translatorNameString": "蒋楠",
+      "id": 2579,
+      "coverKey": "18114bde80d3521933aa",
+      "name": "计算机科学精粹",
+      "isbn": "978-7-115-49919-6",
+      "abstract": "本书面向所有对计算机科学感兴趣的读者，以浅显易懂的语言和简明扼要的形式介绍计算机科学领域的重要知识点，尽量少涉及学术概念，着力将抽象理论具体化，复杂问题简单化，既适合计算机专业技术人员查漏补缺基本理论，也适合普通读者了解计算思维。",
+      "bookEditionPrices": [
+        {
+          "id": 2579,
+          "name": "49.00",
+          "key": "Paper"
+        },
+        {
+          "id": 2579,
+          "name": "24.99",
+          "key": "Ebook"
+        }
+      ]
+    },
+    {
+      "authors": [
+        {
+          "id": null,
+          "name": "余叶",
+          "key": null
+        }
+      ],
+      "translators": [],
+      "authorNameString": "余叶",
+      "translatorNameString": "",
+      "id": 2662,
+      "coverKey": "1811c49062329cd7795a",
+      "name": "代码里的世界观——通往架构师之路",
+      "isbn": "978-7-115-49523-5",
+      "abstract": "本书分为两大部分，第一部分讲述程序员在编写程序和组织代码时遇到的很多通用概念和共同问题，比如程序里的基本元素，如何面向对象，如何面向抽象编程，什么是耦合，如何进行单元测试等。第二部分讲述程序员在编写代码时都会遇到的思考和选择，比如程序员的两种工作模式，如何坚持技术成长，程序员的组织生产方法，程序员的职业生涯规划等。",
+      "bookEditionPrices": [
+        {
+          "id": 2662,
+          "name": "59.00",
+          "key": "Paper"
+        }
+      ]
+    },
+    {
+      "authors": [
+        {
+          "id": null,
+          "name": "[澳]胡安•努内兹-伊格莱西亚斯",
+          "key": null
+        },
+        {
+          "id": null,
+          "name": "[美]斯特凡•范德瓦尔特",
+          "key": null
+        },
+        {
+          "id": null,
+          "name": "[澳]哈丽雅特•达士诺",
+          "key": null
+        }
+      ],
+      "translators": [
+        {
+          "id": 231015,
+          "name": "陈光欣",
+          "key": null
+        }
+      ],
+      "authorNameString": "[澳]胡安•努内兹-伊格莱西亚斯（Juan Nunez-Iglesias），[美]斯特凡•范德瓦尔特（Stéfan van der Walt），[澳]哈丽雅特•达士诺（Harriet Dashnow）",
+      "translatorNameString": "陈光欣",
+      "id": 2078,
+      "coverKey": "1811978f083db334c6ba",
+      "name": "Python科学计算最佳实践：SciPy指南",
+      "isbn": "978-7-115-49912-7",
+      "abstract": "本书旨在介绍开源的Python算法库和数学工具包SciPy。近年来，基于NumPy和SciPy的完整生态系统迅速发展起来，并在天文学、生物学、气象学和气候科学，以及材料科学等多个学科得到了广泛应用。本书结合大量代码实例，详尽展示了SciPy的强大科学计算能力，包括用NumPy和SciPy进行分位数标准化，用ndimage实现图像区域网络，频率与快速傅里叶变换，用稀疏坐标矩阵实现列联表，SciPy中的线性代数，SciPy中的函数优化等。",
+      "bookEditionPrices": [
+        {
+          "id": 2078,
+          "name": "69.00",
+          "key": "Paper"
+        },
+        {
+          "id": 2078,
+          "name": "34.99",
+          "key": "Ebook"
+        }
+      ]
+    },
+    {
+      "authors": [
+        {
+          "id": null,
+          "name": "David Rock",
+          "key": null
+        }
+      ],
+      "translators": [
+        {
+          "id": null,
+          "name": "肖诗尧",
+          "key": null
+        }
+      ],
+      "authorNameString": "[美]戴维·罗克（David Rock）",
+      "translatorNameString": "肖诗尧",
+      "id": 1684,
+      "coverKey": "181073b41c124cd2cb3f",
+      "name": "高效能人士的思维方式",
+      "isbn": "978-7-115-49672-0",
+      "abstract": "本书以讲故事的方式，讲解关于大脑的新发现，从而帮你了解大脑，知晓如 何更聪明、更高效地管理时间，提高效率，改善工作和生活。全书按戏剧形式分 为四幕，分别介绍了思维的基本原理，情绪和动机及其对思维的影响，如何与他 人更好地相处以及如何改变他人。 \r\n\r\n本书适合所有想提高工作、生活效率的读者阅读。\r\n",
+      "bookEditionPrices": [
+        {
+          "id": 1684,
+          "name": "59.00",
+          "key": "Paper"
+        }
+      ]
+    },
+    {
+      "authors": [
+        {
+          "id": null,
+          "name": "[英]西蒙 • N. 伍德",
+          "key": null
+        }
+      ],
+      "translators": [
+        {
+          "id": null,
+          "name": "石丽伟",
+          "key": null
+        }
+      ],
+      "authorNameString": "[英]西蒙•N.伍德（Simon N. Wood）",
+      "translatorNameString": "石丽伟",
+      "id": 1797,
+      "coverKey": "181127705d89b702d694",
+      "name": "统计学核心方法及其应用",
+      "isbn": "978-7-115-49746-8",
+      "abstract": "本书主要介绍了统计模型及统计推断中的问题，并引入极大似然法和贝叶斯方法来解答这些问题；概述R语言；简括极大似然估计的大样本理论，然后讨论应用该理论所涉及的数值方法；讲述贝叶斯计算所需的数值方法——马尔可夫链蒙特卡罗方法；介绍线性模型的理论及其应用。",
+      "bookEditionPrices": [
+        {
+          "id": 1797,
+          "name": "69.00",
+          "key": "Paper"
+        }
+      ]
+    },
+    {
+      "authors": [
+        {
+          "id": null,
+          "name": "[日]村山齐",
+          "key": null
+        }
+      ],
+      "translators": [
+        {
+          "id": null,
+          "name": "逸宁",
+          "key": null
+        }
+      ],
+      "authorNameString": "[日]村山齐",
+      "translatorNameString": "逸宁",
+      "id": 2027,
+      "coverKey": "1810c37f61967597b68a",
+      "name": "千亿个宇宙：多世界的黑暗秘密",
+      "isbn": "978-7-115-49012-4",
+      "abstract": "本书从当前可观测宇宙出发，通过追溯早期宇宙，讲解了宇宙的诞生与可能的结局，并结合天文观测与物理学研究中的“暗物质”与“暗能量”问题，带领读者探索了宇宙中不可见的“额外维度”，以及奇妙的多重时空区域。本书语言通俗、线索清晰、节奏轻快、层层深入，不仅描绘出了宇宙的整体图景，还探讨了当前宇宙研究中待解决的关键问题，是宇宙学入门的科普佳作。",
+      "bookEditionPrices": [
+        {
+          "id": 2027,
+          "name": "49.00",
+          "key": "Paper"
+        }
+      ]
+    },
+    {
+      "authors": [
+        {
+          "id": null,
+          "name": "王立铭",
+          "key": null
+        }
+      ],
+      "translators": [],
+      "authorNameString": "王立铭",
+      "translatorNameString": "",
+      "id": 2409,
+      "coverKey": "18116fe05ce08f7dbade",
+      "name": "生命是什么",
+      "isbn": "978-7-115-49563-1",
+      "abstract": "本书通过生动的文笔和有趣有料的生物学故事，揭开了生命科学神秘的面纱，不仅生动地解读了生命的定义及奥秘，而且详细地追溯了生命的起源和演化，展现 了人类探索生命奥秘的伟大历程，讲述了科学家在揭示生命奥秘过程中的重要发现。 阅读本书，有助于读者重新认识生命的过去、现在和未来，更好地认识地球生命以 及其他智慧生命。 \r\n本书生动有趣，适合对生命科学感兴趣的各层次读者阅读。 ",
+      "bookEditionPrices": [
+        {
+          "id": 2409,
+          "name": "69.00",
+          "key": "Paper"
+        }
+      ]
+    },
+    {
+      "authors": [
+        {
+          "id": null,
+          "name": "[印]拉结帝普•杜瓦",
+          "key": null
+        },
+        {
+          "id": null,
+          "name": "[印]曼普利特•辛格•古特拉",
+          "key": null
+        },
+        {
+          "id": null,
+          "name": "[南非]尼克•彭特里思",
+          "key": null
+        }
+      ],
+      "translators": [
+        {
+          "id": 188818,
+          "name": "蔡立宇",
+          "key": null
+        },
+        {
+          "id": 104071,
+          "name": "黄章帅",
+          "key": null
+        },
+        {
+          "id": 188887,
+          "name": "周济民",
+          "key": null
+        }
+      ],
+      "authorNameString": "[印]拉结帝普•杜瓦（Rajdeep Dua），[印]曼普利特•辛格•古特拉（Manpreet Singh Ghotra），[南非]尼克•彭特里思（Nick Pentreath）",
+      "translatorNameString": "蔡立宇 黄章帅 周济民",
+      "id": 2041,
+      "coverKey": "18119771002291abf3b9",
+      "name": "Spark机器学习（第2版）",
+      "isbn": "978-7-115-49783-3",
+      "abstract": "本书结合案例研究讲解Spark 在机器学习中的应用，并介绍如何从各种公开渠道获取用于机器学习系统的数据。内容涵盖推荐系统、回归、聚类、降维等经典机器学习算法及其实际应用。第2版新增了有关机器学习数学基础以及Spark ML Pipeline API 的章节，内容更加系统、全面、与时俱进。",
+      "bookEditionPrices": [
+        {
+          "id": 2041,
+          "name": "99.00",
+          "key": "Paper"
+        },
+        {
+          "id": 2041,
+          "name": "49.99",
+          "key": "Ebook"
+        }
+      ]
+    },
+    {
+      "authors": [
+        {
+          "id": null,
+          "name": "Martina Hodges-Schell",
+          "key": null
+        },
+        {
+          "id": null,
+          "name": "James O'Brien",
+          "key": null
+        }
+      ],
+      "translators": [
+        {
+          "id": null,
+          "name": "杜春晓",
+          "key": null
+        }
+      ],
+      "authorNameString": "[德]马丁娜·霍奇斯-舍尔（Martina Hodges-Schell），[爱尔兰]詹姆斯·奥布赖恩（James O'Brien）",
+      "translatorNameString": "杜春晓",
+      "id": 1764,
+      "coverKey": "1810eb5c979d93e29b8d",
+      "name": "设计与沟通：好设计师这样让想法落地",
+      "isbn": "978-7-115-49718-5",
+      "abstract": "任何一款产品在问世前都要经过反复的讨论验证等流程，在这个过程中，产品的设计人员如何把握沟通技巧也是一门学问。本书针对UI设计师最常遇到的13个人际关系/合作关系问题，给出了具体的分析和应对方法，简洁、适用，是一本帮助设计师高效实现设计目的的指导手册。",
+      "bookEditionPrices": [
+        {
+          "id": 1764,
+          "name": "69.00",
+          "key": "Paper"
+        }
+      ]
+    }
+  ],
+  "pagination": {
+    "pageCount": 60,
+    "totalItemCount": 1182,
+    "pageNumber": 1,
+    "hasPreviousPage": false,
+    "hasNextPage": true,
+    "isFirstPage": true,
+    "isLastPage": false
+  },
+  "banners": []
+}
