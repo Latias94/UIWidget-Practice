@@ -65,6 +65,7 @@ public class EnterPage : StatelessWidget
 
     private void StopAnimating()
     {
-        GameObject.Find("miraikomachi").GetComponent<Animator>().enabled = false;
+        GameObject miraikomachi = GameObject.Find("miraikomachi");
+        miraikomachi.SetActive(false);
     }
 }
