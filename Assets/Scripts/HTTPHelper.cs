@@ -17,8 +17,8 @@ public class HTTPHelper: MonoBehaviour
     {
         instance = this;
         Client = new HttpClient();
-        // 设置3秒超时
-        Client.Timeout = new TimeSpan(0, 0, 5);
+        // 设置 7 秒超时
+        Client.Timeout = new TimeSpan(0, 0, 7);
     }
     
     private void OnDestroy()
@@ -42,7 +42,7 @@ public class HTTPHelper: MonoBehaviour
         catch (Exception e)
         {
             callback(null);
-            Debug.Log($"GetAsync Execute Done {requestUri}");
+            Debug.Log($"GetAsync Execute Done {requestUri}\nWith Error Message: {e.Message}");
             taskLock.SetResult(true);
             return;
         }
@@ -106,7 +106,7 @@ public class HTTPHelper: MonoBehaviour
         catch (Exception e)
         {
             callback(null);
-            Debug.Log($"PostAsync Execute Done {requestUri}");
+            Debug.Log($"PostAsync Execute Done {requestUri}\nWith Error Message: {e.Message}");
             taskLock.SetResult(true);
             return;
         }
@@ -173,7 +173,7 @@ public class HTTPHelper: MonoBehaviour
         catch (Exception e)
         {
             callback(null);
-            Debug.Log($"PostJsonAsync Execute Done {requestUri}");
+            Debug.Log($"PostJsonAsync Execute Done {requestUri}\nWith Error Message: {e.Message}");
             taskLock.SetResult(true);
             return;
         }

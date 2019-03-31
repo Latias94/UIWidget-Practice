@@ -2,8 +2,13 @@ using System.Collections.Generic;
 using System.Net.Http;
 using LitJson;
 using Unity.UIWidgets.material;
+using Unity.UIWidgets.painting;
+using Unity.UIWidgets.rendering;
+using Unity.UIWidgets.ui;
+//using Unity.UIWidgets.ui;
 using Unity.UIWidgets.widgets;
 using UnityEngine;
+using TextStyle = Unity.UIWidgets.painting.TextStyle;
 
 public class BookListPage : StatefulWidget
 {
@@ -16,33 +21,34 @@ public class BookListPage : StatefulWidget
 
 public class BookListState : State<BookListPage>
 {
-    private NewBooks newBooks;
+    private NewBooksModel newBooksModel;
+    private bool hasRefresh;
 
-    public BookListState()
-    {
-        // 测试 json 读取
+//    public BookListState()
+//    {
+    // 测试 json 读取
 //        var text = Resources.Load<TextAsset>("test");
 //        Debug.Log(text.text);
-//        var books = JsonHelper.FromJson<NewBooks>(text.text);
+//        var books = JsonHelper.FromJson<NewBooksModel>(text.text);
 //        Debug.Log(books.bookItems.Count);
-//        RequestBooks(1);
-    }
+//        newBooksModel = books;
+//    }
 
-    private void RequestBooks(int page)
+    private void RequestBooks(int page, BuildContext context)
     {
+        Debug.Log("Request book");
         if (page <= 0)
         {
             return;
         }
 
         string url = $"https://api.test.ituring.com.cn/api/Book?sort=new&page={page}&tab=all";
-        HTTPHelper.instance.GetAsync<NewBooks>(url, response =>
+        HTTPHelper.instance.GetAsync<NewBooksModel>(url, response =>
         {
             if (response != null)
             {
-                NewBooks result = (NewBooks) response;
-                Debug.Log(result.bookItems.Count);
-                setState(() => { newBooks = result; });
+                NewBooksModel result = (NewBooksModel) response;
+                SetNewBooks(result, context);
             }
             else
             {
@@ -51,50 +57,125 @@ public class BookListState : State<BookListPage>
         });
     }
 
+    private void SetNewBooks(NewBooksModel booksModel, BuildContext context)
+    {
+        using (WindowProvider.of(context).getScope())
+        {
+            setState(() => { newBooksModel = booksModel; });
+        }
+    }
+
 
     public override Widget build(BuildContext context)
     {
+        if (!hasRefresh)
+        {
+            RequestBooks(2, context);
+            // 不知道为什么会不断调用 build 函数...醉了
+            setState(() => hasRefresh = true);
+        }
+
         return BuildList(context);
     }
 
-    private ListView BuildList(BuildContext context)
+    private Widget BuildList(BuildContext context)
     {
-        if (newBooks != null)
+        if (newBooksModel != null)
         {
             return ListView.builder(
-                // Must have an item count equal to the number of items!
-                itemCount: newBooks.bookItems.Count,
-                // A callback that will return a widget.
-                itemBuilder: (_context, index) =>
-                {
-                    // In our case, a DogCard for each doggo.
-                    return new BookCard(newBooks.bookItems[index]);
-                }
+                itemCount: newBooksModel.bookItems.Count,
+                itemBuilder: (_context, index) => { return new BookCard(newBooksModel.bookItems[index]); }
             );
         }
 
-        return new ListView(children: new List<Widget>
-        {
-            new FlatButton(
-                child: new Text("刷新"),
-                color: Colors.yellow,
-                onPressed: () => { RequestBooks(1); }
-            )
-        });
+        return new Text("无数据");
     }
 }
 
-public class BookCard : StatelessWidget
-{
-    private NewBooks.BookItem bookItem;
 
-    public BookCard(NewBooks.BookItem item)
+public class BookCard : StatefulWidget
+{
+    private NewBooksModel.BookItem bookItem;
+
+    public BookCard(NewBooksModel.BookItem item)
+    {
+        bookItem = item;
+    }
+
+    public override State createState()
+    {
+        return new BookCardState(bookItem);
+    }
+}
+
+public class BookCardState : State<BookCard>
+{
+    private NewBooksModel.BookItem bookItem;
+
+    public BookCardState(NewBooksModel.BookItem item)
     {
         bookItem = item;
     }
 
     public override Widget build(BuildContext context)
     {
-        return new Text($"{bookItem.name}");
+        return new InkWell(
+            onTap: () => ShowBookDetailPage(context),
+            child: new Padding(
+                padding: EdgeInsets.symmetric(horizontal: 16.0f, vertical: 5.0f),
+                child: new Container(
+                    height: 180f,
+                    child: new Stack(
+                        children: new List<Widget>
+                        {
+                            BuildCard(context),
+                            BuildCover()
+                        }
+                    )
+                )
+            )
+        );
+    }
+
+    private void ShowBookDetailPage(BuildContext context)
+    {
+        Navigator.push(context, new MaterialPageRoute(_ => new EmptyPageWithAppBar(bookItem.name)));
+    }
+
+    private Widget BuildCard(BuildContext context)
+    {
+        return new Container(
+            child: new Card(
+                color: Colors.cyan,
+                child: new Padding(
+                    padding: EdgeInsets.only(
+                        top: 8.0f,
+                        bottom: 80.0f,
+                        left: 200.0f
+                    ),
+                    child: new ListTile(
+                        title: new Text(bookItem.name),
+                        subtitle: new Text(bookItem.authorNameString),
+                        isThreeLine: true
+                    )
+                )
+            )
+        );
+    }
+
+    private Widget BuildCover()
+    {
+        string imgUrl = $"http://file.ituring.com.cn/SmallCover/{bookItem.coverKey}";
+
+        return new Container(
+            width: 180.0f,
+            height: 180.0f,
+            decoration: new BoxDecoration(
+                image: new DecorationImage(
+                    fit: BoxFit.contain,
+                    image: new NetworkImage(imgUrl)
+                )
+            )
+        );
     }
 }

@@ -11,12 +11,13 @@ public class MainScene : UIWidgetsSamplePanel
     {
         return new MaterialApp(
             showPerformanceOverlay: false,
-            initialRoute: "/",
+            initialRoute: "/", // 定义哪个路由为首页
 //            textStyle: new TextStyle(fontSize: 24),
 //            pageRouteBuilder: pageRouteBuilder,
             routes: new Dictionary<string, WidgetBuilder>
             {
-                {"/", context => new HomePage()},
+                {"/", context => new EnterPage()},
+                {"/home", context => new HomePage()},
                 {"/login", context => new LoginPage()}
             }
         );

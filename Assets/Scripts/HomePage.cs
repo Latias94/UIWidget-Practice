@@ -43,19 +43,6 @@ public class HomePageState : State<HomePage>
 
     public override Widget build(BuildContext context)
     {
-//        new Scaffold(
-//            Key key,
-//            this.appBar,//标题栏
-//            this.body,//内容
-//            this.floatingActionButton,//悬浮按钮
-//            this.persistentFooterButtons,底部持久化现实按钮
-//            this.drawer,//侧滑菜单左
-//            this.endDrawer,//侧滑菜单右
-//            this.bottomNavigationBar,//底部导航
-//            this.backgroundColor,//背景颜色
-//            this.resizeToAvoidBottomPadding: true,//自动适应底部padding
-//            this.primary: true,使用primary主色
-//        )
         return new Scaffold(
             key: _scaffoldKey,
             appBar: new AppBar(
@@ -81,13 +68,6 @@ public class HomePageState : State<HomePage>
                     )
                 }
             ),
-//            body: new Padding(
-//                padding: EdgeInsets.all(16.0f),
-//                child: new Center(
-//                    child: new Text("You did it!")
-//                )
-//            ),
-//            body: buildBody(),
             body: new PageView(
                 children: new List<Widget>
                 {
@@ -109,7 +89,8 @@ public class HomePageState : State<HomePage>
                             decoration: new BoxDecoration(
                                 image: new DecorationImage(
                                     image: new AssetImage("unity-black"),
-                                    fit: BoxFit.contain)
+                                    fit: BoxFit.contain
+                                )
                             )),
                         new ListTile(
                             leading: new Icon(Icons.account_circle),
@@ -122,7 +103,14 @@ public class HomePageState : State<HomePage>
                                 Navigator.of(context).pop();
                                 // 相比flutter用的async await，UIWidgets 用的是promise
                                 Navigator.push(context, new MaterialPageRoute(_ => new LoginPage()))
-                                    .Then(newValue => DisplaySnackbar("登录成功"));
+                                    .Then(newValue =>
+                                    {
+                                        if (newValue != null)
+                                        {
+                                            string msg = (string) newValue;
+                                            DisplaySnackbar(msg);
+                                        }
+                                    });
                             }
                         ),
                         new Divider(height: 2.0f),
@@ -160,11 +148,6 @@ public class HomePageState : State<HomePage>
                 currentIndex: _selectedIndex,
                 onTap: NavigationTapped
             )
-//            floatingActionButton: new FloatingActionButton(
-//                backgroundColor: Colors.redAccent,
-//                child: new Icon(Icons.add_alert),
-//                onPressed: () => { Debug.Log("点击悬浮按钮"); }
-//            )
         );
     }
 

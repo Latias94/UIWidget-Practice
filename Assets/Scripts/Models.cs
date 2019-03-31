@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 
 
-public class NewBooks
+public class NewBooksModel
 {
     public List<BookItem> bookItems;
 
@@ -48,4 +48,17 @@ public class NewBooks
     {
         public string name;
     }
+}
+
+public class LoginModel
+{
+    public string email;
+    public string password;
+}
+
+public class UserTokenModel
+{
+    public string accessToken;
+    public string refreshToken;
+    public string userId;
 }
